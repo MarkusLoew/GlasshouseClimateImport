@@ -29,7 +29,6 @@ Installation under Windows might require the installation of Rtools. There will 
 
 # load library
 library(GlasshouseClimateImport)
-library(reshape2) # library to re-order the data
 
 # set the working directory to the folder with the files
 # setwd("~/AgFace/2015/Glasshouses")
@@ -38,9 +37,15 @@ library(reshape2) # library to re-order the data
 # in the example, the DAT files are from the PC2 glasshouse.
 # the two options for "glasshouse" are "PC2" or "teaching".
 df <- GlasshouseFolderImport(glasshouse = "PC2")
+
+# export the data to a spreadsheet file in csv format
+write.csv(df, 
+          file = "glasshouse_climate.csv",
+          row.names = FALSE)
+
         
 # to visualise the data 
-library(reshape2)
+library(reshape2) # library to re-order the data
 # re-melting the data
 my.data.all.melt <- melt(df,
                          id.vars = "TIME")
