@@ -13,6 +13,7 @@ for details on the functions provided by this package.
 To enable installations of packages straight from github use:
 ```{r}
 install.packages("devtools", dep = TRUE)
+library(devtools)
 ```
 
 Then install the "GlasshouseClimateImport" package:
