@@ -64,7 +64,7 @@ my.datetime <- as.POSIXct(my.time, format = "%A %d %B %Y %H:%M")
 # using the information we gathered before to distinguish data from date and time
 #my.data <- df[data.rows]
 #my.data <- read.table("01012014.DAT", header = FALSE, skip = data.start, sep = ",")
-my.data <- read.fwf(data, widths = c(3, 15, 17, 15), skip = data.start-1)
+my.data <- utils::read.fwf(data, widths = c(3, 15, 17, 15), skip = data.start-1)
 # replace multiple spaces to single spaces
 #my.data <- gsub(" +", ",", my.data)
 
