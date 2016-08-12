@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MarkusLoew/GlasshouseClimateImport.svg?branch=master)](https://travis-ci.org/MarkusLoew/GlasshouseClimateImport)
+
 GlasshouseClimateImport
 =======================
 
