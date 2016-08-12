@@ -15,7 +15,7 @@ GlasshouseFolderImport(folder = ".", glasshouse)
 One data frame containing the data from all DAT files in the \code{foldername}
 }
 \description{
-Author: Markus Löw
+Author: Markus Loew
 Date: May 2015
 Imports and processes all Glasshouse DAT files from a folder. Uses \code{\link{GlasshouseFileImport}}.
 }

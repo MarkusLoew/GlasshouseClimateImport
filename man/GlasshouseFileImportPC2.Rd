@@ -15,7 +15,7 @@ GlasshouseFileImportPC2(data, glasshouse)
 returns a data frame containing the data of the specified DAT file
 }
 \description{
-Author: Markus Löw
+Author: Markus Loew
 Date: May 2015
 Imports and processes a DAT file.
 }
