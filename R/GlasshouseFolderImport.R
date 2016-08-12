@@ -1,6 +1,6 @@
 #' An import function for all DAT glasshouse climate files from a folder
 #'
-#' Author: Markus Löw
+#' Author: Markus Loew
 #' Date: May 2015
 
 #' Imports and processes all Glasshouse DAT files from a folder. Uses \code{\link{GlasshouseFileImport}}.

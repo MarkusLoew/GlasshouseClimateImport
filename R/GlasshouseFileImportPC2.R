@@ -1,6 +1,6 @@
 #' Function to import DAT files from Creswick Glasshouses
 #'
-#' Author: Markus Löw
+#' Author: Markus Loew
 #' Date: May 2015
 #' Imports and processes a DAT file.
 #' @param data Filename of the DAT file as character
