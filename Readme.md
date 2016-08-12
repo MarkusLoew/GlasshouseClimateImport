@@ -18,7 +18,7 @@ library(devtools)
 
 Then install the "GlasshouseClimateImport" package:
 ```{r}
-install_github("MarkusLoew/AgFace/packages/GlasshouseClimateImport")
+devtools::install_github("MarkusLoew/GlasshouseClimateImport")
 ```
 
 Installation under Windows might require the installation of Rtools. There will be a prompt for it if needed.
