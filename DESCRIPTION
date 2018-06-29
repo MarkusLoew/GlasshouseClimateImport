@@ -1,9 +1,9 @@
 Package: GlasshouseClimateImport
 Title: Imports Climate Data for Creswick glasshouses
 Version: 0.0.1.1
-Authors@R: person("Markus", "Löw", email = "m.loew@unimelb.edu.au", role = c("aut", "cre"))
-Author: Markus Löw <m.loew@unimelb.edu.au>
-Maintainer: Markus Löw <m.loew@unimelb.edu.au>
+Authors@R: person("Markus", "Loew", email = "m.loew@unimelb.edu.au", role = c("aut", "cre"))
+Author: Markus Loew <m.loew@unimelb.edu.au>
+Maintainer: Markus Loew <m.loew@unimelb.edu.au>
 Description: Import climate data from Creswick glasshouses .DAT files.
 Depends:
     R (>= 3.0.0)
@@ -11,6 +11,5 @@ License: GPL-2
 LazyData: true
 Imports:
     reshape2
-URL: https://github.com/MarkusLoew/AgFace/tree/master/packages/
-    GlasshouseClimateImport
+URL: https://github.com/MarkusLoew/GlasshouseClimateImport
 RoxygenNote: 5.0.1
